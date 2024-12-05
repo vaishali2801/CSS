@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <title>transform</title>
+		<style> 
+		 
+	   *{
+		   margin:0;
+		   padding:0;
+		   box-sizing:border-box; 	
+		}
+		body{
+		   perspective:1000px;
+		}
+		
+		.box{
+			width:200px;
+			height:200px;
+			border:1px solid red;	
+			margin:30px 30px;
+		 }
+         .box1{
+		     transform:rotate(45deg);
+		 }
+		 .box1:hover{
+		     transform:rotate(90deg);
+		 }
+		 
+		 .box2{
+		    transform:rotateX(30deg);
+		 }
+		 .box2:hover{
+		    transform:rotateX(45deg);
+		 }
+		 .box3{
+		    transform:rotateY(55deg);
+		 }
+		 .box4{
+		    transform:scale(0.9);
+			margin-left:50px;
+		 }
+		 .box4:hover{
+		    transform:scale(0.9);
+			margin-left:50px;
+		 }
+		 .box5{
+		    transform:scaleX(1.4);
+			margin-left:50px;
+		 }
+		 .box6{
+		    transform:scaleX(1.2);
+			margin-left:50px;
+		 }
+		 .box7{
+		   transform:skewY(30deg);
+			margin-left:50px;
+		 }
+		 .box7:hover{
+		   transform:skew(45deg);
+			margin-left:50px;
+		 }
+		 .box8{
+		   transform:skewX(38deg);
+			margin-left:50px;
+		 }
+		 .box9{
+		   transform:translate(500px);
+			margin-left:50px;
+		 }
+		 .box10{
+		   transform:translateX(400px);
+			margin-left:50px;
+		 }
+		 .box10:hover{
+		   transform:translateX(300px);
+		   transition:all 0.5s;
+		   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+			margin-left:50px;
+		 }
+		 .box11{
+		   transform:translateY(30px);
+			margin-left:50px;
+		 }
+		 .box11:hover{
+		   transform:translateY(-20px);
+		   transition:all 0.5s;
+		   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+			margin-left:50px;
+		 }
+		 .container{
+		  padding:8px 18px;
+		   background-color:lightgreen;
+		   font-weight:25px;
+		   color:white;
+		   margin:50px 50px;
+		   border-radius:20px;
+		 }
+		 .container:hover{
+		  padding:8px 18px;
+		   background-color:white;
+		   font-weight:25px;
+		   color:lightgreen;
+		   margin:50px 50px;
+		   border-radius:15px;
+		   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+		 }
+		 
+		</style>
+	</head>
+	<body>
+	     <h1> transform:rotate(30deg)</h1>
+	     <div class="box box1">
+		    transform:rotate(30deg)
+		 </div>
+		 <hr/>
+	     <h1> transform:rotateX(45deg)</h1>
+	     <div class="box box2">
+		    transform:rotateX(45deg)
+		 </div>
+		 <hr/>
+		 <h1> transform:rotateY(55deg)</h1>
+	     <div class="box box3">
+		    transform:rotateY(55deg)
+		 </div>
+		 <hr/>	
+		 <h1> transform:scale(0.9)</h1>
+	     <div class="box box4">
+		    transform:scale(0.9)
+		 </div>
+		 <hr/> 
+		 <h1> transform:scaleX(1.4)</h1>
+	     <div class="box box5">
+		    transform:scaleX(1.4)
+		 </div>
+		 <hr/>
+		 <h1> transform:scaleY(1.2)</h1>
+	     <div class="box box6">
+		    transform:scaleY(1.2)
+		 </div>
+		 <hr/>
+		 <h1> transform:skewY(30deg)</h1>
+	     <div class="box box7">
+		    transform:skewY(30deg)
+		 </div>
+		 <hr/>
+		 <h1> transform:skewX(38deg)</h1>
+	     <div class="box box8">
+		    transform:skewX(38deg)
+		 </div>
+		 <hr/>
+		 <h1> transform:translate(500px)</h1>
+	     <div class="box box9">
+		    transform:translate(500px)
+		 </div>
+		 <hr/>
+		  <h1> transform:translateX(400px)</h1>
+	     <div class="box box10">
+		    transform:translateX(400px)
+		 </div>
+		 <hr/> 
+		 <h1> transform:translateY(30px)</h1>
+	     <div class="box box11">
+		    transform:translateY(30px)
+		 </div>
+		 <hr/>
+		 <button class="container">click here</button>
+		 
+	     
+	</body>
+</html>
