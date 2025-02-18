@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 10px;
+    border: 1px solid red;
+}
+.nav{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.navbar{
+    padding: 0px 16px;
+    margin: 0px 150px;
+    border: 1px solid green;
+}

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 1330px;
+    margin: 30px ;
+    border: 1px solid greenyellow;
+}
+
+.height-500{
+    height: 500px;
+}
+.a-i-center{
+    align-items: center;
+}
+
+.box{
+    width:150px;
+    height: 150px; 
+    background-color: rgb(168, 132, 226);
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.d-flex{
+    display: flex;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.align-items{
+    align-items: baseline;
+}
+
+
+    
+/* align self property   */
+
+
+.align-self-center{
+    align-self: center;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.align-self-s{
+    align-self: stretch;
+}
+.align-self-start{
+    align-self: flex-start;
+}
+.align-self-baseline{
+    align-self
+}   
+
+
+.box1{
+    width:150px;
+    height: 150px;
+    background-color: rgb(173, 230, 175);
+    border: 1px solid white;
+}
+
+.f-basis{
+    flex-basis: 50%;
+}
+
+.f-grow-1{
+    flex-grow:1;
+}
+
+.f-grow-2{
+    flex-grow:2;
+}
+
+.f-grow-3{
+    flex-grow:3;
+}
+
+.f-srink-1{
+    flex-shrink:1 ;
+}
+
+.f-srink-2{
+    flex-shrink:2 ;
+}
+
+.f-srink-3{
+    flex-shrink:3;
+}
+
+.order-1{
+    order:1
+}
+
+.order-2{
+    order:2
+}
+
+.order--1{
+    order:-1
+}
