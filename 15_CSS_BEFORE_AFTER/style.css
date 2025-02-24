@@ -1,0 +1,36 @@
+
+.btn{
+    background-color: lightcoral;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 13px;
+    font-size: 23px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: none;
+    transition: all 0.5s;
+
+}
+.btn:hover{
+    background-color: white;
+    color: lightcoral;
+    box-shadow: lightcoral 3px 4px 12px;;
+}
+.li{
+    list-style: none;
+    font-size: 25px;
+}
+.li li{
+    transition: all 0.5s;
+}
+.li li::after{
+    content: "👈";
+}
+.li li::before{
+    content: "👉";
+}
+.li li:hover{
+    font-size: 30px;
+    font-weight: 500;
+    color:orange;
+}
