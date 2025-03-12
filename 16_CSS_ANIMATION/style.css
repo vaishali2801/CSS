@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin: 50px;
+    width:200px;
+    height: 200px;
+    background-color: lightblue;
+
+    transition: all 3s;
+   
+}
+
+.box:hover{
+    rotate: 360deg;
+}
+
+.box1{
+    animation: rotating 3s infinite linear;
+}
+
+@keyframes rotating{
+    to{
+        rotate: 0deg;
+    }
+    from{
+        rotate: 360deg;
+    }
+}
+
+
+
+.box2{
+    animation : pratic 2s infinite alternate-reverse;
+}
+
+
+@keyframes pratic {
+    to{
+        transform:translate(0, 0%)
+    }
+    from{
+        transform:translate(500px, 0px)
+    }
+}
+
+
+
+.container{
+    max-width: 1320px;
+    border: 1px solid red;
+     margin: 50px auto;
+     overflow-x: hidden;
+     scroll-behavior: smooth;
+     
+}
+
+.slider{
+    width:400%;
+    border: 1px solid green;
+    display: flex;
+    animation: slide 10s infinite ease-in-out ;
+}
+
+@keyframes slide {
+    0%{
+        margin-left: 0%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+   75%{
+        margin-left: -300%;
+    }
+    /* 100%{
+        margin-left: -400%;
+    } */
+}
+
+
+
+
+.slides{
+    width: 100%;
+    border: 1px solid blue;
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+}
+
+.bg1{
+    background-image: url(img/one.jpg);
+}
+
+.bg2{
+    background-image: url(img/two.jpg);
+}
+
+.bg3{
+    background-image: url(img/three.jpg);
+}
+
+.bg4{
+    background-image: url(img/four.jpg);
+}
+
+.btns{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+}
+
+.btns a{
+    padding: 5px;
+    background-color: gray;
+    border-radius: 50%;
+}
